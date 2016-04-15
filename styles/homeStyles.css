@@ -1,0 +1,141 @@
+@font-face {
+font-family: pokeFont;
+src: url(./fonts/Pokemon_Pixel_Font/pokemon_pixel_font.ttf)
+
+}
+
+header{
+  background:linear-gradient( red, #930c0c);
+  width: 100%;
+  height:70px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.headerFill{
+width: 33%;
+}
+.myName {
+  font-size: 250%;
+  font-family: play;
+  color: white;
+
+
+min-width: 200px;
+  max-width: 400px;
+  display: block;
+
+
+}
+
+header > .menuButton {
+  padding: 10px;
+width: 10%;
+height: 100%;
+min-width: 100px;
+
+display: inline-block;
+border-left: 6px solid #8a0606;
+border-right: 10px solid #8a0606;
+right: 10px;
+font-size: 150%;
+font-family: play;
+color: white;
+text-shadow: 2px 2px
+ rgb(129, 10, 10);
+ text-align: center;
+padding:20px;
+border-radius: 5px;
+/*border-bottom-right-radius: 10px;*/
+vertical-align: top;
+float:right;
+cursor: pointer;
+
+}
+.labFull {
+  height: 100%;
+  width: 100%;
+/*background-image: url(./images/lab.jpg);*/
+background-size: 100%;
+background-repeat: no-repeat;
+display: flex;
+justify-content:
+top: 5em;
+
+}
+.trainerButton{
+height: 12%;
+width: 10%;
+position: absolute;
+bottom: 40%;
+left: 30%;;
+
+
+}
+#trainerImg{
+  width: 60%;
+  /*height: 100%;*/
+  cursor: pointer;
+
+}
+#trainerImg:hover {
+  outline: 20px solid #92b6cd;
+  border-radius: 20%;
+}
+ui-view{
+  height: 100%;
+  width:100%;
+}
+html, body{
+  height: 94%;
+  width:100%;
+}
+.labImg {
+
+  width: 100%
+}
+.contactClick {
+  height: 10%;
+  width: 15%;
+  background: transparent;
+  position: absolute;
+
+  left: 14%;
+  top:22%;
+  cursor: pointer;
+
+}
+.contactClick:hover {
+  outline: 20px solid #92b6cd;
+  outline-radius: 20px;
+
+}
+.contactText{
+  font-size: 32px;
+  font-family: play;
+  color: white;
+  background:#92b6cd;
+  position:absolute;
+  left:10%;
+  visibility:hidden;
+
+}
+.contactClick:hover + .contactText{
+
+  visibility:visible;
+}
+.accompClick {
+  height: 15%;
+  width: 22%;
+  background: transparent;
+  position: absolute;
+
+  left: 45%;
+  bottom:31%;
+  cursor: pointer;
+
+}
+.accompClick:hover {
+  outline: 20px solid #92b6cd;
+  outline-radius: 20px;
+}

@@ -2,27 +2,51 @@
 <html ng-app="pokeApp">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./styles/homeStyles.css">
+    <link rel="stylesheet" href="./styles/aboutStyles.css">
+    <link rel="stylesheet" href="./styles/contactStyles.css">
+    <link rel="stylesheet" href="./styles/accompStyles.css">
+
     <title></title>
   </head>
   <body>
+
     <header>
-      <div class="headerFill">  </div>
-      <div class="menuButton" ui-view></div>
+
+      <!-- <div class="leftFill">
+
+      </div> -->
+      <div class="myName">
+ Jace Briggs
+    </div>
+    <div class="headerFill">
+    </div>
+
+      <div class="menuButton"><b>Menu</b></div>
 
 
 
 
     </header >
-    <div ui-view="home"></div>
-    <div ui-view="accomp"></div>
-    <div ui-view="contact"></div>
-    <div ui-view="about"></div>
+    <ui-view></ui-view>
 
 
     <footer></footer>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+
+    <script src="js/pokeApp.js"></script>
+    <script src="js/mainCtrl.js"></script>
+    <script src="js/accompCtrl.js"></script>
+    <script src="js/aboutCtrl.js"></script>
+    <script src="js/contactCtrl.js"></script>
+
+
+
 
   </body>
 </html>

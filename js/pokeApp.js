@@ -1,40 +1,27 @@
-angular.module('pokeApp', ['ui.router']).
-config(function($stateProvider, $urlRouterProvider,$httpProvider){
-
+angular.module('pokeApp', ['ui.router'])
+.config(function($urlRouterProvider, $stateProvider){
   $stateProvider
   .state('home', {
     url:'/',
-    controller:'homeCtrl',
-    templateUrl: '/routes/home.html'
-
-
+    controller:'mainCtrl',
+    templateUrl: './routes/home.html'
   })
-
-  $stateProvider
   .state('contact', {
     url:'/contact',
     controller:'contactCtrl',
-    templateUrl: '/routes/contact.html'
-
-
+    templateUrl: './routes/contact.html'
   })
-
-  $stateProvider
   .state('accomp', {
     url:'/accomp',
     controller:'accompCtrl',
-    templateUrl: '/routes/accomp.html'
-
-
+    templateUrl: './routes/accomp.html'
   })
-
-  $stateProvider
   .state('about', {
     url:'/about',
     controller:'aboutCtrl',
-    templateUrl: '/routes/about.html'
+    templateUrl: './routes/about.html'
+  });
 
-
-  })
-
-})
+  $urlRouterProvider
+   .otherwise('/');
+ })
