@@ -114,9 +114,10 @@ html, body{
   font-size: 32px;
   font-family: play;
   color: white;
-  background:#92b6cd;
+  background:linear-gradient(rgb(34, 173, 241),#92b6cd);
+  border-radius: 15%;
   position:absolute;
-  left:10%;
+  left:7%;
   visibility:hidden;
 
 }
@@ -124,6 +125,8 @@ html, body{
 
   visibility:visible;
 }
+
+
 .accompClick {
   height: 15%;
   width: 22%;
@@ -138,4 +141,22 @@ html, body{
 .accompClick:hover {
   outline: 20px solid #92b6cd;
   outline-radius: 20px;
+}
+
+.accompText{
+  font-size: 32px;
+  font-family: play;
+  color: white;
+  background:linear-gradient(rgb(34, 173, 241),#92b6cd);
+  border-radius: 15%;
+  position:absolute;
+  left:37%;
+  top: 43%;
+  visibility: hidden;
+
+}
+
+.accompClick:hover + .accompText{
+
+  visibility:visible;
 }
