@@ -9,53 +9,45 @@ header{
   width: 100%;
   height:70px;
   display: flex;
-  justify-content: flex-end;
 
+
+text-align: center;
 }
-.headerFill{
-width: 33%;
+.filler{
+  width: 100px;
 }
+
 .myName {
   font-size: 250%;
   font-family: play;
   color: white;
-
-
-min-width: 200px;
-  max-width: 400px;
-  display: block;
-
-
+  width: 400px;
+  margin: 0 auto;
 }
 
-header > .menuButton {
-  padding: 10px;
+.menuButton {
 width: 10%;
-height: 100%;
+height: 70px;
 min-width: 100px;
-
-display: inline-block;
 border-left: 6px solid #8a0606;
 border-right: 10px solid #8a0606;
-right: 10px;
 font-size: 150%;
 font-family: play;
 color: white;
 text-shadow: 2px 2px
  rgb(129, 10, 10);
- text-align: center;
 padding:20px;
 border-radius: 5px;
-/*border-bottom-right-radius: 10px;*/
-vertical-align: top;
 float:right;
 cursor: pointer;
+display: inline-block;
+
 
 }
 .labFull {
   height: 100%;
   width: 100%;
-/*background-image: url(./images/lab.jpg);*/
+
 background-size: 100%;
 background-repeat: no-repeat;
 display: flex;
@@ -74,13 +66,30 @@ left: 30%;;
 }
 #trainerImg{
   width: 60%;
-  /*height: 100%;*/
+
   cursor: pointer;
 
 }
 #trainerImg:hover {
   outline: 20px solid #92b6cd;
   border-radius: 20%;
+}
+.aboutText{
+  font-size: 32px;
+  font-family: play;
+  color: white;
+  background:linear-gradient(rgb(34, 173, 241),#92b6cd);
+  text-align: center;
+  border-radius: 15%;
+  position:absolute;
+  left:20%;
+  top: 70%;
+  visibility: hidden;
+
+}
+.trainerButton:hover + .aboutText {
+
+  visibility:visible;
 }
 ui-view{
   height: 100%;
@@ -110,6 +119,7 @@ html, body{
   outline-radius: 20px;
 
 }
+
 .contactText{
   font-size: 32px;
   font-family: play;
@@ -117,7 +127,8 @@ html, body{
   background:linear-gradient(rgb(34, 173, 241),#92b6cd);
   border-radius: 15%;
   position:absolute;
-  left:7%;
+  left:6%;
+  top:13%;
   visibility:hidden;
 
 }
@@ -128,7 +139,7 @@ html, body{
 
 
 .accompClick {
-  height: 15%;
+  height: 16%;
   width: 22%;
   background: transparent;
   position: absolute;

@@ -4,13 +4,14 @@ width: 100%;
 background:#9ae8f6;
 
 }
-.leftSide{
-height: 100%;
-width: 5%;
-background:linear-gradient(to top right, rgb(163, 30, 12), #930c0c);
+.pnwrPic{
+  height: 300px;
+  width: 300px;
+  left: 50px;
+  top: 150px;
+  position: absolute;
 
 }
-.rightSide{
-
-
+img {
+  width: 90%;
 }
