@@ -32,6 +32,9 @@ height: 50px;
   border:50px;
   cursor:pointer;
 }
+.filler > a > img:hover {
+  height:60px;
+}
 
 
 .myName {
