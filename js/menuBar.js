@@ -1,8 +1,16 @@
-angular.module('pokeApp', [])
+angular.module('pokeApp')
 .directive('menuScroll', function(){
 return {
 
-  templateUrl: 
+  restrict: 'E',
+  templateUrl: '/js/menuTmpl.html',
+  controller: ['$scope', function($scope){
+    $scope.dropFunc = function(){
+      $(".dropDown").toggle("show");
+    }
+
+
+  }]
 }
 
 })

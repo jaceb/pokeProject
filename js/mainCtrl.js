@@ -1,5 +1,3 @@
-angular.module('pokeApp').controller('mainCtrl', function($scope, $stateParams){
-
-
+angular.module('pokeApp').controller('mainCtrl', function($scope){
 
 });

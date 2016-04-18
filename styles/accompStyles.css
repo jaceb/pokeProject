@@ -1,8 +1,12 @@
 .accompView {
   height: 100%;
   width: 100%;
-  background:rgb(74, 91, 44);
+  background:linear-gradient(rgb(74, 91, 44), rgb(71, 77, 55));
 
+text-align: center;
 
+}
+p{
+padding: 40px;
 
 }

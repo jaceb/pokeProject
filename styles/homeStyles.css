@@ -15,35 +15,29 @@ text-align: center;
 }
 .filler{
   width: 100px;
+  display: flex;
+  justify-content: flex-start;
+  padding-top:10px;
+
+}
+.filler > img {
+width: 50%;
+height: 75%;
+  border-radius:50%;
+  border:50px;
+  cursor:pointer;
 }
 
 .myName {
   font-size: 250%;
   font-family: play;
   color: white;
+  text-shadow: 3px 4px #930c0c;
   width: 400px;
   margin: 0 auto;
 }
 
-.menuButton {
-width: 10%;
-height: 70px;
-min-width: 100px;
-border-left: 6px solid #8a0606;
-border-right: 10px solid #8a0606;
-font-size: 100%;
-font-family: play;
-color: white;
-text-shadow: 2px 2px
- rgb(129, 10, 10);
-padding:20px;
-border-radius: 5px;
-float:right;
-cursor: pointer;
-display: inline-block;
 
-
-}
 .labFull {
   height: 100%;
   width: 100%;
@@ -170,4 +164,39 @@ html, body{
 .accompClick:hover + .accompText{
 
   visibility:visible;
+}
+.menuButton {
+width: 10%;
+height: 70px;
+min-width: 100px;
+border-left: 6px solid #8a0606;
+border-right: 10px solid #8a0606;
+font-size: 100%;
+font-family: play;
+color: white;
+padding:20px;
+border-radius: 5px;
+float:right;
+cursor: pointer;
+display: inline-block;
+text-shadow: 3px 4px #930c0c;
+}
+.dropDown{
+  display:none;
+  height:100%;
+  width: 100%;
+}
+.menuOption{
+  border-left: 6px solid #8a0606;
+  border-right: 10px solid #8a0606;
+  font-family: play;
+  color: white;
+  padding:16px;
+  cursor: pointer;
+  text-shadow: 3px 4px #930c0c;
+    background:linear-gradient( red, #930c0c);
+}
+.menuDrop{
+  width: 100%;
+  height: 100%;
 }
