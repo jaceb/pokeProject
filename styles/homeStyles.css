@@ -20,13 +20,19 @@ text-align: center;
   padding-top:10px;
 
 }
-.filler > img {
-width: 50%;
-height: 75%;
+.filler > a {
+width: 100%;
+height: 100%;
+cursor:pointer;
+}
+.filler > a > img {
+/*width: 100%;*/
+height: 50px;
   border-radius:50%;
   border:50px;
   cursor:pointer;
 }
+
 
 .myName {
   font-size: 250%;
@@ -178,12 +184,12 @@ padding:20px;
 border-radius: 5px;
 float:right;
 cursor: pointer;
-display: inline-block;
+display:block;
 text-shadow: 3px 4px #930c0c;
 }
 .dropDown{
   display:none;
-  height:100%;
+  height:400px;;
   width: 100%;
 }
 .menuOption{
@@ -191,12 +197,23 @@ text-shadow: 3px 4px #930c0c;
   border-right: 10px solid #8a0606;
   font-family: play;
   color: white;
-  padding:16px;
+  padding:10px;
   cursor: pointer;
   text-shadow: 3px 4px #930c0c;
     background:linear-gradient( red, #930c0c);
+    width: 200px;
+    float:right;
+    overflow: inherit;
 }
 .menuDrop{
   width: 100%;
-  height: 100%;
+  height: 100px;
+}
+menu-scroll{
+  top: 70px;
+  right: 0px;
+  height: 400px;
+  width: 400px;
+  position:absolute;
+  z-index: 1;
 }

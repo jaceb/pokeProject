@@ -16,9 +16,9 @@
   <body ng-controller="mainCtrl">
     <header>
 <div class="filler">
-<img src="images/octocat.png" alt="" />
-<img src="images/linkedin.png" alt="" />
-<img src="images/mfd.png" href="http://mfdyoyo.com/team/" />
+<a href="https://github.com/jaceb"> <img src="images/octocat.png" ></a>
+<a href="https://www.linkedin.com/in/jacebriggs"><img src="images/linkedin.png"/></a>
+<a href="http://mfdyoyo.com/team/"><img src="images/mfd.png"  /></a>
 
 
 </div>
@@ -26,10 +26,13 @@
       <div class="myName">
  Jace Briggs
     </div>
+    <div class="menuButton" ng-click="dropFunc()"><b>Menu</b>
 
 
-      <menu-scroll></menu-scroll>
+    </div>
 
+
+<menu-scroll></menu-scroll>
 
     </header>
 
