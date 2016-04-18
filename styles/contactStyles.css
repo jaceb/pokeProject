@@ -1,10 +1,14 @@
 html{
   font-size: 150%;
   font-family: play;
-  color: white;
-
-
+  color: black;
 }
+
+.wholeBorder{
+  height: 100%;
+  width: 100%;
+}
+
 .contactComp {
   height: 100%;
   width: 100%;
