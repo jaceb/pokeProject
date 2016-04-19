@@ -4,7 +4,7 @@ angular.module('pokeApp', ['ui.router'])
   $stateProvider
   .state('home', {
     url:'/',
-    // controller:'mainCtrl',
+    controller:'notHere',
     templateUrl: './routes/home.html'
   })
   .state('contact', {

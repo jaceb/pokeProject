@@ -3,11 +3,13 @@ height: 100%;
 width: 100%;
 background:#9ae8f6;
 display: flex;
+font-size: 24px;
+font-family: play;
 
 }
 .pnwrPic{
-  height: 50%;;
-
+  width: 25%;
+height:160px;
   left: 250px;
   top: 120px;
   /*position: absolute;*/
@@ -41,6 +43,7 @@ padding: 50px;
 width: 40%;
 float: left;
 overflow: visible;
+
 }
 @media(max-width:1150px){
 .rightBorder{

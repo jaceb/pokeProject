@@ -2,7 +2,7 @@
 .returnButton {
   position: absolute;
     bottom: 50px;
-    right: 250px;
+    right: 50px;
     background:linear-gradient(#65c9f4, #1671ac);
     font-size: 24px;
     font-family: play;
@@ -11,14 +11,7 @@
     text-shadow: 1px;
     height:50px;
     width:100px;
-    /*border-radius: 50%;*/
     text-align: center;
-
-
-  font-size:22px;
-  font-family: play;
-  color: white;
-  cursor: pointer;
   text-shadow: 2px 1px rgb(11, 68, 99);
   box-shadow: 2px 2px rgb(11, 68, 99);
 

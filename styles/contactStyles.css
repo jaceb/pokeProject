@@ -1,8 +1,4 @@
-html{
-  font-size: 150%;
-  font-family: play;
-  color: black;
-}
+
 
 .wholeBorder{
   height: 100%;
@@ -13,6 +9,9 @@ html{
   height: 100%;
   width: 100%;
   background:rgb(74, 91, 44);
+  font-size: 150%;
+  font-family: play;
+  color: black;
 
 
 padding:100px;

@@ -2,10 +2,12 @@
   <img class="labImg" src="./images/lab.jpg"/>
 
   <div class="trainerButton" ui-sref="about">
-<img id="trainerImg" src="./images/trainer.png" alt="pokemon Trainer Button" /></div>
-<div class="aboutText">
-  Click Here to Find Out<br> More About Me!
-</div>
+    <img id="trainerImg" src="{{imgNum}}">
+  </div>
+
+  <div class="aboutText">
+    Click Here to Find Out<br> More About Me!
+  </div>
 
   <div class="contactClick" ui-sref="contact"></div>
   <div class="contactText">
@@ -14,10 +16,12 @@
 
 
 
-<div class="accompClick" ui-sref="accomp"></div>
-<div class="accompText">
-Some of My Accomplishments!
-</div>
+  <div class="accompClick" ui-sref="accomp"></div>
+  <div class="accompText">
+  Some of My Accomplishments!
+  </div>
 
-
+  <div class="randomButton" ng-click="notHere()">
+    Now is not the time for that!
+  </div>
 </div>

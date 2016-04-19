@@ -1,8 +1,3 @@
-@font-face {
-font-family: pokeFont;
-src: url(./fonts/Pokemon_Pixel_Font/pokemon_pixel_font.ttf)
-
-}
 
 header{
   background:linear-gradient( red, #930c0c);
@@ -58,24 +53,24 @@ justify-content:
 top: 5em;
 
 }
-.trainerButton{
-height: 12%;
-width: 10%;
-position: absolute;
-bottom: 40%;
-left: 30%;;
-
-
-}
 #trainerImg{
-  width: 60%;
-
-  cursor: pointer;
+height: 100%
 
 }
-#trainerImg:hover {
+.trainerButton{
+  height: 150px;;
+  width: 100px;
+  position: absolute;
+  bottom: 30%;
+  left: 31%;
+  cursor: pointer;
+}
+.trainerButton:hover {
   outline: 20px solid #92b6cd;
   border-radius: 20%;
+}
+.trainerButton:hover + .aboutText{
+  visibility: visible;;
 }
 .aboutText{
   font-size: 32px;
@@ -85,15 +80,12 @@ left: 30%;;
   text-align: center;
   border-radius: 15%;
   position:absolute;
-  left:22%;
+  left:23%;
   top: 70%;
   visibility: hidden;
 
 }
-.trainerButton:hover + .aboutText {
 
-  visibility:visible;
-}
 ui-view{
   height: 100%;
   width:100%;
@@ -180,7 +172,7 @@ height: 70px;
 min-width: 100px;
 border-left: 6px solid #8a0606;
 border-right: 10px solid #8a0606;
-font-size: 100%;
+font-size: 24px;
 font-family: play;
 color: white;
 padding:20px;
@@ -193,9 +185,10 @@ text-shadow: 3px 4px #930c0c;
 .dropDown{
   display:none;
   height:400px;;
-  width: 100%;
+  /*width: 100%;*/
 }
 .menuOption{
+  text-align: left;
   border-left: 6px solid #8a0606;
   border-right: 10px solid #8a0606;
   font-family: play;
@@ -204,8 +197,8 @@ text-shadow: 3px 4px #930c0c;
   cursor: pointer;
   text-shadow: 3px 4px #930c0c;
     background:linear-gradient( red, #930c0c);
-    width: 200px;
-    float:right;
+    /*width: 300px;*/
+    /*float:right;*/
     overflow: inherit;
 }
 .menuDrop{
@@ -216,7 +209,29 @@ menu-scroll{
   top: 70px;
   right: 0px;
   height: 400px;
-  width: 400px;
+
   position:absolute;
   z-index: 1;
+}
+.randomButton{
+  position: absolute;
+    bottom: 25px;
+    left: 25px;
+    background:linear-gradient(#65c9f4, #1671ac);
+    font-size: 24px;
+    font-family: play;
+    color: white;
+    cursor: pointer;
+    text-shadow: 1px;
+    height:50px;
+    width:200px;
+    text-align: center;
+  text-shadow: 2px 1px rgb(11, 68, 99);
+  box-shadow: 2px 2px rgb(11, 68, 99);
+}
+@media(max-width: 800px){
+
+  .dropDown{
+    display: block;
+  }
 }

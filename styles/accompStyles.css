@@ -1,12 +1,43 @@
 .accompView {
   height: 100%;
   width: 100%;
-  background:linear-gradient(rgb(74, 91, 44), rgb(71, 77, 55));
 
+  background:linear-gradient( white, #f6f0db);
+
+
+}
+.wholeBox{
+
+
+}
+.topBox > img {
+/*max-height: 50%;*/
+width: 100px;
+height: 100px;
+}
+.topBox{
+padding-top: 100px;
+  width: 100%;
+display: flex;
+justify-content: space-around;
+
+
+}
+.bottomBox > p {
+  font:10px;
+
+  font-size: 16px;
+  font-family: play;
 text-align: center;
 
 }
-p{
-padding: 40px;
+.accompView{
+display: flex;
+flex-direction: column;
 
+}
+.bottomBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
