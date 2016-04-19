@@ -229,6 +229,9 @@ menu-scroll{
   text-shadow: 2px 1px rgb(11, 68, 99);
   box-shadow: 2px 2px rgb(11, 68, 99);
 }
+.randomButton:hover {
+  outline: 5px solid #92b6cd;
+}
 @media(max-width: 800px){
 
   .dropDown{
