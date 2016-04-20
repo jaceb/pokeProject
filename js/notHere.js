@@ -16,6 +16,7 @@ switch (getRandom()) {
   break;
   default: $scope.imgNum = "styles/trainerPics/trainer2.png";
 
+
 }
 }
 
