@@ -201,6 +201,9 @@ text-shadow: 3px 4px #930c0c;
     /*float:right;*/
     overflow: inherit;
 }
+.menuOption:hover{
+background:#930c0c;
+}
 .menuDrop{
   width: 100%;
   height: 100px;
@@ -231,10 +234,4 @@ menu-scroll{
 }
 .randomButton:hover {
   outline: 5px solid #92b6cd;
-}
-@media(max-width: 800px){
-
-  .dropDown{
-    display: block;
-  }
 }
